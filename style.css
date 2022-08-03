@@ -166,5 +166,13 @@ p {
 .navbar-collapse {
   flex-grow: 0 !important;
 }
+.iconContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.fa-brands {
+  margin: 20px;
+}
