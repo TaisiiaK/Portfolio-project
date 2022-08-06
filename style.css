@@ -18,7 +18,17 @@ h3 {
 }
 @media (max-width: 576px) {
   .hero h1 {
-    font-size: 56px !important;
+    font-size: 50px !important;
+  }
+  .hero {
+    padding: 30px 10px 0px 10px !important;
+  }
+  .row {
+    margin-left: 5px !important;
+    padding-left: 2px !important;
+  }
+  .projects h4 {
+    margin: 28px !important;
   }
   .hideimg {
     display: none;
@@ -30,6 +40,36 @@ h3 {
   }
   .container .email-link {
     font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  .row {
+    margin-left: 5px !important;
+    padding-bottom: 30px;
+  }
+  .hideimg {
+    display: none;
+  }
+  .iconContainer {
+    padding-top: 20px;
+  }
+  .about-paragraphs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 10px;
   }
 }
 .hero {
@@ -63,7 +103,6 @@ h3 {
 .projects h4 {
   font-weight: normal;
   font-size: 26px;
-  line-height: 30px;
   display: block;
   font-family: var(--default-font-family);
 }
