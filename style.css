@@ -17,6 +17,10 @@ h3 {
   font-weight: 500px;
 }
 @media (max-width: 576px) {
+  div.row {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
   .hero h1 {
     font-size: 50px !important;
   }
@@ -80,12 +84,9 @@ h3 {
   }
 }
 @media (max-width: 768px) {
-  nav.navbar {
-    padding-right: 30px;
-  }
   div.row {
     margin-left: 10px !important;
-    margin-right: 40px !important ;
+    margin-right: 10px !important;
   }
   .primary-link {
     display: block;
@@ -138,12 +139,9 @@ h3 {
   }
 }
 @media (max-width: 992px) {
-  nav.navbar {
-    padding-right: 30px;
-  }
   div.row {
     margin-left: 10px !important;
-    margin-right: 40px !important ;
+    margin-right: 10px !important;
   }
   .about-section h1 {
     font-size: 72px !important;
