@@ -144,19 +144,19 @@ h3 {
     margin-right: 10px !important;
   }
   .about-section h1 {
-    font-size: 72px !important;
+    font-size: 68px !important;
     line-height: 60px !important;
     padding-top: 30px !important;
     text-align: center !important;
   }
   .about-section h2 {
     padding-top: 15px !important;
-    font-size: 46px !important;
+    font-size: 44px !important;
     text-align: center !important;
     margin: 0 auto !important;
   }
   .about-section-content p {
-    font-size: 30px !important;
+    font-size: 28px !important;
     text-align: center !important;
     background: none !important;
     padding-top: 40px !important;
@@ -284,9 +284,12 @@ p {
 .row {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) / 2);
-  padding-left: 5px;
+  padding-left: 30px;
   margin-top: var(--bs-gutter-y);
   padding-top: 20px;
+}
+div.row {
+  padding-left: 30px;
 }
 .text-center {
   font-size: 88px;
