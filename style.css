@@ -134,7 +134,7 @@ h3 {
   .based {
     display: block;
   }
-  .contact h2 {
+  h2.contact {
     font-size: 36px;
   }
 }
@@ -162,7 +162,7 @@ h3 {
     padding-top: 40px !important;
     padding-bottom: 0px !important;
   }
-  .contact h2 {
+  h2.contact {
     font-size: 36px;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -330,7 +330,7 @@ div.row {
   height: auto;
   border-radius: 10px;
 }
-.contact h2 {
+h2.contact {
   font-family: var(--default-font-family);
   color: var(--primary-color);
   padding-top: 50px;
