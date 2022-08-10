@@ -16,6 +16,9 @@ h3 {
   margin: 0;
   font-weight: 500px;
 }
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
 @media (max-width: 576px) {
   div.row {
     margin-left: 10px !important;
