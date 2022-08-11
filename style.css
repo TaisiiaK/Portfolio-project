@@ -24,6 +24,9 @@ h3 {
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
+  div.container {
+    padding-right: 0px !important;
+  }
   .hero h1 {
     font-size: 50px !important;
   }
@@ -50,7 +53,7 @@ h3 {
     margin: 0 auto;
     text-align: center;
   }
-  .container .email-link {
+  .container.email-link {
     font-size: 24px;
   }
   .developer {
@@ -60,13 +63,13 @@ h3 {
   .col-sm-4 {
     padding-bottom: 10px !important;
   }
-  .about-section h1 {
-    font-size: 60px !important;
+  .about-section-content h1 {
+    font-size: 30px !important;
     line-height: 60px !important;
     padding-top: 30px !important;
     text-align: center !important;
   }
-  .about-section h2 {
+  .about-section-content h2 {
     padding-top: 15px !important;
     font-size: 30px !important;
     text-align: center !important;
@@ -85,11 +88,24 @@ h3 {
   .col-sm-4 {
     padding-bottom: 20px !important;
   }
+  button.navbar-toggler {
+    margin-right: 0px !important;
+  }
+  div.open.text-center {
+    margin: 0px 10px;
+    font-size: 22px;
+  }
 }
 @media (max-width: 768px) {
   div.row {
     margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-right: 30px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 10px !important;
+  }
+  div.container {
+    padding-right: 40px !important;
   }
   .primary-link {
     display: block;
@@ -105,9 +121,6 @@ h3 {
     margin-left: 5px !important;
     padding-bottom: 30px;
   }
-  .hideimg {
-    display: none;
-  }
   .iconContainer {
     padding-top: 20px;
   }
@@ -115,13 +128,13 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .about-section h1 {
+  .about-section-content h1 {
     font-size: 60px !important;
     line-height: 60px !important;
     padding-top: 30px !important;
     text-align: center !important;
   }
-  .about-section h2 {
+  .about-section-content h2 {
     padding-top: 15px !important;
     font-size: 36px !important;
     text-align: center !important;
@@ -140,30 +153,35 @@ h3 {
   h2.contact {
     font-size: 36px;
   }
+  button.navbar-toggler {
+    margin-right: 0px !important;
+  }
 }
 @media (max-width: 992px) {
   div.row {
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
-  .about-section h1 {
+  .about-section-content h1 {
     font-size: 68px !important;
     line-height: 60px !important;
     padding-top: 30px !important;
-    text-align: center !important;
+    text-align: left;
   }
-  .about-section h2 {
+  .about-section-content h2 {
     padding-top: 15px !important;
     font-size: 44px !important;
-    text-align: center !important;
+    text-align: left;
     margin: 0 auto !important;
   }
   .about-section-content p {
     font-size: 28px !important;
-    text-align: center !important;
+    text-align: left;
     background: none !important;
-    padding-top: 40px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
   }
   h2.contact {
     font-size: 36px;
@@ -172,6 +190,38 @@ h3 {
   }
   .email-link {
     font-size: 34px !important;
+  }
+  nav.navbar {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  div.container {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  }
+  .iconContainer {
+    padding-top: 10px;
+  }
+  button.navbar-toggler {
+    margin-right: 0px;
+  }
+  div.about-section.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  div.second.row {
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+    margin-left: 0px !important;
+  }
+  div.col-lg-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  div.open.text-center {
+    font-size: 22px;
   }
 }
 .hero {
@@ -369,4 +419,8 @@ h2.contact {
 .fa-github {
   font-size: 20px;
   padding-top: 15px !important;
+}
+.open {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
